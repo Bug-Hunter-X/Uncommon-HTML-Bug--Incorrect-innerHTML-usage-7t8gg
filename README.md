@@ -1,0 +1,3 @@
+This repository demonstrates a common yet easily overlooked error in HTML involving the `innerHTML` property.  The bug arises from incorrectly assigning a string representation of an HTML element to the `innerHTML` property without proper string concatenation or template literals. This often leads to syntax errors and unexpected behavior.
+
+The `bug.html` file demonstrates the error. The `bugSolution.html` shows the corrected code, demonstrating how to properly assign HTML to the `innerHTML` property.
